@@ -1,0 +1,18 @@
+// rem - we are going to use this instead of pixels because this has better support for accessiblities allowing users to do things like scaling their font size
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
